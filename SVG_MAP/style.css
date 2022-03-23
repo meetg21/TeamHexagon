@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow: hidden;
+    background-color: 000000;
+}
+
+hr{border-style:none;
+    border-top-style:solid;
+    border-color:black;
+    border-width:4px;}
+
+.img{
+    border:3px solid ;
+}
+
+.img:hover{
+    transition-duration: 1s;
+    transform: scale(1.025);
+}
+
+.header{
+    margin-left:22.5%;
+    font-size:275%;
+}
+
+.header2{
+    font-size:275%;
+    letter-spacing: 10px;
+    color:black;
+}
+
+.header3{
+    font-size:200%;
+    color:black;
+}
+
+svg path{
+    fill: #1A132F;
+    stroke:#61A4BC;
+    stroke-width: 0.5;
+    transition-duration: 1.5s;
+}
+
+svg path:hover {
+    transform: scale(1.005);
+    fill: #000000;
+    cursor: pointer;
+}
+
+
+.map{
+    border:3px solid ;
+    background-color:#5B7DB1;
+}
+
+.popup{
+    border:3px solid ;
+    background-color:#5B7DB1;
+}
+
+.resumebutton{background-color:#1A132F;
+    font-size: 25px;
+    color: bisque;
+    border: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    width:840px;
+    height:55px;
+    transition-duration: 0.5s;}
+        
+.resumebutton:hover{background-color: black;
+          color: bisque;}
+
+.mapbutton{background-color:#1A132F;
+            font-size: 40px;
+            letter-spacing: 10px;
+            color: bisque;
+            border: black;
+            border: 2px solid black;
+            border-radius: 5px;
+            width:680px;
+            height:55px;
+            transition-duration: 0.5s;}
+                
+.mapbutton:hover{background-color: black;
+            color: bisque;}
